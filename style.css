@@ -1,0 +1,41 @@
+h1 {
+  font-size: 43px;
+  text-align: center;
+  margin: 0;
+  padding-top: 25px;
+}
+
+#image-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+  padding-top: 90px;
+
+}
+
+#image {
+  height: 350px;
+}
+
+#prev-btn,
+#next-btn {
+  position: absolute;
+  background-color: white;
+  top: 55%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 57px;
+  border: none;
+  cursor: pointer;
+}
+
+#prev-btn {
+  left: 325px;
+}
+
+#next-btn {
+  right: 325px;
+}
